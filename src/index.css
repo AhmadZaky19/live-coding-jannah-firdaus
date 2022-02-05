@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card__section {
+  display: flex;
+  justify-content: space-around;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card__user {
+  width: 13rem !important;
+  background-color: #f5f6f8 !important;
+  align-items: center;
+  padding: 1.3em;
+  margin-top: 20px;
+  border-radius: 10px !important;
+  border-color: #dedede !important;
+}
+
+.card__user--img {
+  height: 14em;
+  width: 11em !important;
+}
+
+.card__user--desc {
+  padding-bottom: 0;
+}
+
+.card__user--title {
+  text-align: center;
+}
+
+.card__user--stock {
+  text-align: center;
+  color: #a0a3bd;
+  font-size: 12px;
+}
+
+.card__user--price {
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+}
+
+.card__user--button--update {
+  width: 100%;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.card__user--button--delete {
+  width: 100%;
+  font-size: 13px;
+  margin-top: 10px;
+}
+/* ------------------------------ */
+
+.pagination {
+  margin-top: 50px;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.page-item {
+  margin-right: 0.46875rem;
+}
+
+.page-item.active .page-link {
+  outline: none;
+  color: #ffffff !important;
+}
+
+.page-link {
+  padding: 0.5rem;
+  border-radius: 0.5rem !important;
+  font-size: 18px;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+li.break {
+  margin: auto !important;
+  margin-left: -7.5px !important;
+  padding: 0 0.46875rem !important;
 }
